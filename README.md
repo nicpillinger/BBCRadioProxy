@@ -33,31 +33,31 @@ Right now, the proxy knows about:
     <tbody>
         <tr>
             <td>BBC Radio 1</td>
-            <td>`/r1`</td>
+            <td><code>/r1</code></td>
         </tr>
         <tr>
             <td>BBC Radio 2</td>
-            <td>`/r2`</td>
+            <td><code>/r2</code></td>
         </tr>
         <tr>
             <td>BBC Radio 3</td>
-            <td>`/r3`</td>
+            <td><code>/r3</code></td>
         </tr>
         <tr>
             <td>BBC Radio 4</td>
-            <td>`/r4`</td>
+            <td><code>/r4</code></td>
         </tr>
         <tr>
             <td>BBC Radio 5Live</td>
-            <td>`/r5`</td>
+            <td><code>/r5</code></td>
         </tr>
         <tr>
             <td>BBC Radio 5Live Sports Extra</td>
-            <td>`/r5se`</td>
+            <td><code>/r5se</code></td>
         </tr>
         <tr>
             <td>BBC Radio 6Music</td>
-            <td>`/r6`</td>
+            <td><code>/r6</code></td>
         </tr>
     </tbody>
 </table>
