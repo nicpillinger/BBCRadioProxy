@@ -6,8 +6,8 @@ var BBCRadioProxy = function () {
   self = this;
   
   this.options = {
-    'port':     8000,
-    'hostname': 'localhost',
+    'port':       process.argv[2] || 8000,
+    'host':       process.argv[3] || false,
     'bbc': {
       'hostname':   'www.bbc.co.uk',
       'port':       80,
@@ -21,8 +21,8 @@ var BBCRadioProxy = function () {
         'r5se':     '/radio/listen/live/r5lsp_heaacv2.pls',
         'r6':       '/radio/listen/live/r6_heaacv2.pls'
       }
-    },
-  }
+    }
+  };
 
   console.log('Starting server on ' + this.options.hostname + ':' +this.options.port);
 
