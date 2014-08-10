@@ -11,13 +11,13 @@ var BBCRadioProxy = function () {
       'port':       80,
       'method':     'GET',
       'stations': {
-        'r1':       '/radio/listen/live/r1_heaacv2.pls',
-        'r2':       '/radio/listen/live/r2_heaacv2.pls',
-        'r3':       '/radio/listen/live/r3_heaacv2.pls',
-        'r4':       '/radio/listen/live/r4_heaacv2.pls',
-        'r5':       '/radio/listen/live/r5_heaacv2.pls',
-        'r5se':     '/radio/listen/live/r5lsp_heaacv2.pls',
-        'r6':       '/radio/listen/live/r6_heaacv2.pls'
+        'r1':       '/radio/listen/live/r1_aaclca.pls',
+        'r2':       '/radio/listen/live/r2_aaclca.pls',
+        'r3':       '/radio/listen/live/r3_aaclca.pls',
+        'r4':       '/radio/listen/live/r4_aaclca.pls',
+        'r5':       '/radio/listen/live/r5_aaclca.pls',
+        'r5se':     '/radio/listen/live/r5lsp_aaclca.pls',
+        'r6':       '/radio/listen/live/r6_aaclca.pls'
       }
     }
   };
