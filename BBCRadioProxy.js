@@ -7,17 +7,17 @@ var BBCRadioProxy = function () {
     'port':       process.argv[2] || 8000,
     'host':       process.argv[3] || false,
     'bbc': {
-      'hostname':   'www.bbc.co.uk',
+      'hostname':   'open.live.bbc.co.uk',
       'port':       80,
       'method':     'GET',
       'stations': {
-        'r1':       '/radio/listen/live/r1_aaclca.pls',
-        'r2':       '/radio/listen/live/r2_aaclca.pls',
-        'r3':       '/radio/listen/live/r3_aaclca.pls',
-        'r4':       '/radio/listen/live/r4_aaclca.pls',
-        'r5':       '/radio/listen/live/r5_aaclca.pls',
-        'r5se':     '/radio/listen/live/r5lsp_aaclca.pls',
-        'r6':       '/radio/listen/live/r6_aaclca.pls'
+        'r1':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_one/format/pls.pls',
+        'r2':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_two/format/pls.pls',
+        'r3':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_three/format/pls.pls',
+        'r4':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_fourfm/format/pls.pls',
+        'r5':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_five_live/format/pls.pls',
+        'r5se':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_five_live_sports_extra/format/pls.pls',
+        'r6':       '/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_6music/format/pls.pls'
       }
     }
   };
